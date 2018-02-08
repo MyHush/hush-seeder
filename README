@@ -17,6 +17,9 @@ REQUIREMENTS
 
 $ sudo apt-get install build-essential libboost-all-dev libssl-dev
 
+NOTE: You cannot run this seeder on the same machine as a Hush full
+node, as both require port 8888.
+
 USAGE
 -----
 
