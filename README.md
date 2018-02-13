@@ -13,7 +13,7 @@ Features:
 
 ## REQUIREMENTS
 
-$ sudo apt-get install build-essential libboost-all-dev libssl-dev
+    sudo apt-get install build-essential libboost-all-dev libssl-dev
 
 NOTE: You cannot run this seeder on the same machine as a Hush full
 node, as both require port 8888.
@@ -24,7 +24,7 @@ Assuming you want to run a dns seed on dnsseed.example.com, you will
 need an authorative NS record in example.com's domain record, pointing
 to for example vps.example.com:
 
-    $ dig -t NS dnsseed.example.com
+    dig -t NS dnsseed.example.com
 
     ;; ANSWER SECTION
     dnsseed.example.com.   86400    IN      NS     vps.example.com.
@@ -41,7 +41,7 @@ e-mail address (with the @ part replaced by .) using -m.
 Compiling will require boost and ssl.  On debian systems, these are provided
 by `libboost-dev` and `libssl-dev` respectively.
 
-$ make
+    make
 
 This will produce the `dnsseed` binary.
 
