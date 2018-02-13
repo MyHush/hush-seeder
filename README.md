@@ -15,10 +15,11 @@ Features:
 
     sudo apt-get install build-essential libboost-all-dev libssl-dev
 
-NOTE: You cannot run this seeder on the same machine as a Hush full
-node, as both require port 8888.
 
 ## USAGE
+
+### NOTE: You cannot run this seeder on the same machine as a Hush full
+node, as both require port 8888.
 
 Assuming you want to run a dns seed on dnsseed.example.com, you will
 need an authorative NS record in example.com's domain record, pointing
