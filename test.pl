@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-use warnings FATAL => 'all';
 use threads;
 use threads::shared;
 use bytes;
