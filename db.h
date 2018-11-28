@@ -111,7 +111,8 @@ public:
 		(clientSubVersion != SUBV2) &&
 		(clientSubVersion != SUBV3) &&
 		(clientSubVersion != SUBV4) &&
-		(clientSubVersion != SUBV5)) return false;
+		(clientSubVersion != SUBV5) &&
+		(clientSubVersion != SUBV6)) return false;
 // END
 
     if (blocks && blocks < GetRequireHeight()) return false;
@@ -135,7 +136,8 @@ public:
 		(clientSubVersion != SUBV2) &&
 		(clientSubVersion != SUBV3) &&
 		(clientSubVersion != SUBV4) &&
-		(clientSubVersion != SUBV5)) { return 604800; }
+		(clientSubVersion != SUBV5) &&
+		(clientSubVersion != SUBV6)) { return 604800; }
 // END
 
     if (stat1M.reliability - stat1M.weight + 1.0 < 0.15 && stat1M.count > 32) { return 30*86400; }

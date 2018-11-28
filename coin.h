@@ -32,7 +32,8 @@ static const std::string SUBV1 = "/BalefulStatic:1.0.9/";
 static const std::string SUBV2 = "/BalefulStatic:1.0.12/";
 static const std::string SUBV3 = "/BalefulStatic:1.0.13/";
 static const std::string SUBV4 = "/BalefulStatic:1.0.14/";
-static const std::string SUBV5 = "/AuspiciousHerald:2.0.0/";
+static const std::string SUBV5 = "/AuspiciousHerald:1.0.14/";
+static const std::string SUBV6 = "/AuspiciousHerald:2.0.0/";
 // END
 
 #endif // __INCLUDED_COIN_H__
