@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2011 The Bitcoin developers
+// Copyright (c) 2018 The HUSH developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,8 +22,6 @@ static const char* ppszTypeName[] =
     "tx",
     "block",
 };
-
-unsigned char pchMessageStart[4] = { 0x24, 0xE9, 0x27, 0x64 };
 
 CMessageHeader::CMessageHeader()
 {
