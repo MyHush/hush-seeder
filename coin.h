@@ -11,6 +11,7 @@
 static const std::string mainnet_seeds[] = {"explorer.myhush.org",
                                             "dnsseed.myhush.org",
                                             "dnsseed.bleuzero.com",
+                                            "explorer.myhush.org",
                                             ""};
 
 static const std::string testnet_seeds[] = {"stilgar.myhush.org",
