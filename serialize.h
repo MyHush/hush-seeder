@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2011 The Bitcoin developers
+// Copyright (c) 2018 The HUSH developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_SERIALIZE_H
@@ -18,6 +19,8 @@
 #include <boost/tuple/tuple.hpp>
 #include <boost/tuple/tuple_comparison.hpp>
 #include <boost/tuple/tuple_io.hpp>
+
+#include "coin.h"
 
 #if defined(_MSC_VER) || defined(__BORLANDC__)
 typedef __int64  int64;
@@ -59,8 +62,6 @@ class CScript;
 class CDataStream;
 class CAutoFile;
 static const unsigned int MAX_SIZE = 0x02000000;
-
-static const int PROTOCOL_VERSION = 170002;
 
 // Used to bypass the rule against non-const reference to temporary
 // where it makes sense with wrappers such as CFlatData or CTxDB
