@@ -17,8 +17,8 @@ static const std::string mainnet_seeds[] = {"explorer.myhush.org",
 static const std::string testnet_seeds[] = {"stilgar.myhush.org",
                                             ""};
 
-static const int mainnet_port = 8888;
-static const int testnet_port = 18888;
+static const int mainnet_port = 18030;
+static const int testnet_port = 28030;
 static unsigned char pchMessageStart[4] = { 0x24, 0xe9, 0x27, 0x64 };
 static unsigned char pchMessageStart_testnet[4] = { 0xfa, 0x1a, 0xf9, 0xbf };
 
