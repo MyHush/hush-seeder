@@ -15,6 +15,7 @@ static const std::string mainnet_seeds[] = {"explorer.myhush.org",
                                             "209.58.144.205",
                                             "94.130.35.94",
                                             "188.165.212.101",
+                                            ""
 };
 
 static const std::string testnet_seeds[] = {
