@@ -7,8 +7,7 @@ of reliable nodes via a built-in DNS server.
 Features:
 * regularly revisits known nodes to check their availability
 * bans nodes after enough failures, or bad behaviour
-* accepts nodes down to protocol version < 170002 to request new IP addresses from,
-  but only reports good (170002) nodes.
+* accepts nodes down to protocol version 170002
 * keeps statistics over (exponential) windows of 2 hours, 8 hours,
   1 day and 1 week, to base decisions on.
 * very low memory (a few tens of megabytes) and cpu requirements.
@@ -22,7 +21,7 @@ Features:
 ## USAGE
 
 * NOTE *You cannot run this seeder on the same machine as a Hush full
-node, as both require port 8888.*
+node, as both require port 18030.*
 
 Assuming you want to run a dns seed on dnsseed.example.com, you will
 need an authorative NS record in example.com's domain record, pointing
